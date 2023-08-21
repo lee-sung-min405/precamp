@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box; /*박스의 레이아웃이 틀어지는 것을 방지 하기 위하여 전부다 border-box로 설정 해주어야한다.*/
+}
+body{
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+div{
+    width: 466px;
+    height: 94px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start;
+    padding: 10px;
+ }
+
+ hr{
+    width: 466px;
+    height: 0px;
+    border: 1px solid #CFCFCF;
+ }
+
+ #id-hr{
+    width: 466px;
+    height: 0px;
+    border: 1px solid #0068FF;
+ }
+
+ .pw_box{
+    width: 670px;
+    height: 960px;
+    background: #FFFFFF;
+    border: 1px solid #AACDFF;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 625px;
+    margin-right: 625px;
+ }
+
+ #header{
+    margin-top: 72px;
+    color: #0068FF;
+ }
+
+ input{
+    border:none;
+    background: transparent;
+    margin-bottom: 20px;
+ }
+ 
+ .gender{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-top: 35px;
+ }
+ #gender-input1{
+    width: 20px;
+    height: 19.95px;
+    background: #EBEBEB;
+    border: 1px solid #D2D2D2;
+ }
+
+ #gender-input2{
+   width: 20px;
+   height: 19.95px;
+   background: #EBEBEB;
+   border: 1px solid #D2D2D2;
+}
+
+ .check{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: center;
+ }
+ #check-input{
+    width: 20px;
+    height: 20px;
+ }
+ button{
+    box-sizing: border-box;
+    width: 470px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 1px solid #0068FF;
+    border-radius: 10px;
+    color: #0068FF;
+ }
+ .button{
+    margin-bottom: 94px;
+ }
+ .phone{
+   display: flex;
+   flex-direction: row;
+   width: 500px;
+   height: 500px;
+   margin-bottom: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+ }
+ .phonenumber{
+   width: 100px;
+   height: 35px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   border: 1px solid black;
+   border-radius: 2px;
+   padding-left: 19px;
+   padding-top: 9px;
+ }
+
+ .phone2{
+   display: flex;
+   flex-direction: column;
+   font-size: 20px;
+   color: #0068FF;
+ }
+ #num{
+   padding-left: 200px;
+ }
+ #time{
+   padding-left: 218px;
+ }

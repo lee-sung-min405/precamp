@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입</title>
+    <link href="./02-signup.css" rel="stylesheet">
+    <script src="./02-singnuo.js"></script>
+</head>
+<body>
+    <div class ="pw_box">
+        <div id="header"><h1>회원 가입을 위해<br> 정보를 입력해주세요</h1></div>
+        <div class ="id"><input type="text"  size="60" placeholder="* 이메일" id="id1"><hr id="id-hr"></input></div>
+        <div class ="id"><input type="text" size="60" placeholder="* 이름" id="name1"><hr></input></div>
+        <div class="pw"><input type="password" size="60" placeholder="* 비밀번호" id="pw1"><hr></input></div>
+        <div class="pw"><input type="password" size="60" placeholder="* 비밀번호 확인" id="pw1"><hr></input></div> 
+        <div class="phone">
+            <div class="phonenumber"><input type="text" size="1" id="p1" oninput="changeFocus()" maxlength="3"></div>-
+            <div class="phonenumber"><input type="text" size="1" id="p2" oninput="changeFocus()" maxlength="4"></div>-
+            <div class="phonenumber"> <input type="text" size="1" id="p3"oninput="changeFocus()" maxlength="4"></div>
+        </div>
+        <div class="phone2">
+        <div id="num">000000</div>
+        <button id="butt" disabled="true" onclick="changeFocus()">인증번호 전송</button>
+        <div id="time">3:00</div>
+        <button id="end" disabled="true" onclick="changeFocus1()">요청완료</button>
+        </div>
+        <div class="gender"><input type="radio" name="gender" id="gender-input1"><strong>여성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></input>
+        <input type="radio" name="gender" id="gender-input2"><strong>남성</strong></input></div>
+        <div class="check"><input type="checkbox"  id="check-input">이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다.</input></div>
+        <div class="button"><hr><button disabled="true" id="result_button" onclick="login()">가입하기</button></div>
+    </div>
+</body>
+</html>

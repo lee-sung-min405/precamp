@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Document</title>
+    <script src="./08-phone.js"></script>
+</head>
+<body>
+    <input type="text" id="p1" oninput="changeFocus()" maxlength="3">-
+    <input type="text" id="p2" oninput="changeFocus()" maxlength="4">-
+    <input type="text" id="p3" oninput="changeFocus()" maxlength="4">
+    <div id="num">000000</div>
+    <button id="butt" disabled="true" onclick="changeFocus()">인증번호 전송</button>
+    <div id="time">3:00</div>
+    <button id="end" disabled="true">요청완료</button>
+</body>
+</html>

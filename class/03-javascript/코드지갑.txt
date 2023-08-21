@@ -1,0 +1,5 @@
+변수 : var, let, const
+
+배열 : array.length, array[index], array.push(), array.pop(), array.sort(), array.includes(값) 배열 데이터 확인,
+	array.concat(array2) 배열 2개 연결, array.join() 배열을 문자로 만들기, array.slice() 배열 분리, 
+	array.filter() 배열에서 원하는 요소 뽑기, array.map() 배열의 모든 요소 변경, array.split()배열나누기

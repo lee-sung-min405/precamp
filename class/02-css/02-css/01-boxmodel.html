@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box; /*박스의 레이아웃이 틀어지는 것을 방지 하기 위하여 전부다 border-box로 설정 해주어야한다.*/
+        }
+        div{
+            width: 80px;
+            height: 80px;
+            border: 1px solid red;
+            padding: 10px;
+        }
+        .pb{
+            width: 500px;
+            height: 500px;
+            border: 1px solid blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 50px;
+        }
+        /*/#contentbox{
+            box-sizing: content-box;
+        }
+        #boderbox{
+            box-sizing: border-box;
+        } */
+
+    </style>
+</head>
+<body>
+    <!-- <div id="contentbox">박스 1</div>
+    <div>박스 2</div>
+    <div id="boderbox">박스 3</div> -->
+    <div class ="pb">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
